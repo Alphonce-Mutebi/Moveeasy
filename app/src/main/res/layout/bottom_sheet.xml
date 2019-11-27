@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:id="@+id/bottom_sheet"
+    android:background="@drawable/styler"
+    android:paddingTop="0dp"
+    >
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:choiceMode="singleChoice"
+        android:headerDividersEnabled="false"
+        android:listSelector="#1A9A9A"
+
+        >
+
+
+    </ListView>
+
+
+</LinearLayout>
